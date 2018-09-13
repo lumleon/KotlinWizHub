@@ -1,0 +1,32 @@
+<resources>
+
+    <!--activity-->
+    <string name="app_name">KotlinWiz</string>
+    <string name="main_name">Room List</string>
+
+    <string name="fixturedetail_name">Fixture Details</string>
+    <string name="app_bar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="toolbar_title_fixture">Fixture Details</string>
+    <string name="toolbar_title_main">Room List</string>
+    <string name="avatar">Avatar</string>
+
+    <!--label in dialog -->
+    <string name="message_ask_turn_internet_on">Please turn Wifi on or enable Mobile Data</string>
+    <string name="message_loading_fixture">Loading fixtures status in progress...</string>
+
+    <string name="label_open_settings">Open setting</string>
+    <string name="label_cancel">Cancel</string>
+    <!--label in Switch-->
+
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+
+    <string name="title_schedulejob">Schedule AC OnOff</string>
+
+    <string name="title_canceljob">Cancel AC OnOff</string>
+    <string name="ac">AC</string>
+
+    <string name="loading_data">Loading data in progress...</string>
+
+
+</resources>

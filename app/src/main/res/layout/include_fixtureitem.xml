@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_person"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView_FixtureName"
+        style="style/UserListText"
+        android:layout_width="185dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center_vertical"
+        android:paddingStart="12dp"
+        android:textAlignment="gravity"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tempView"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Light 1" />
+
+    <Switch
+        android:id="@+id/onOffSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="OFF"
+        android:textOff="OFF"
+        android:textOn="ON"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_FixtureName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tempView"
+        android:layout_width="78dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_FixtureName"
+        app:layout_constraintEnd_toStartOf="@+id/onOffSwitch"
+        app:layout_constraintTop_toTopOf="@+id/textView_FixtureName" />
+
+    <TextView
+        android:id="@+id/textView_RoomKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="living-room"
+        android:visibility="invisible" />
+
+</android.support.constraint.ConstraintLayout>

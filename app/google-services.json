@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "815055724860",
+    "firebase_url": "https://random-user-800f2.firebaseio.com",
+    "project_id": "random-user-800f2",
+    "storage_bucket": "random-user-800f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815055724860:android:8642390c09741981",
+        "android_client_info": {
+          "package_name": "com.iot.kotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815055724860-t6qdh4q5l0llsm32qggbvuh19dphsdn2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOZnHB87re-_oSz52rQeJjPy0tOct-POQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815055724860:android:e99676e6f6f9b197",
+        "android_client_info": {
+          "package_name": "com.randomuser.kotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815055724860-t6qdh4q5l0llsm32qggbvuh19dphsdn2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOZnHB87re-_oSz52rQeJjPy0tOct-POQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

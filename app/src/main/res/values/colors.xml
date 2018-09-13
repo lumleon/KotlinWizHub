@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#83cf1c</color>
+    <color name="colorPrimaryDark">#47cb0d</color>
+    <color name="colorAccent">#47cb0d</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bgBottomNavigation">#83cf1c</color>
+    <color name="bgBottomNavigationText">#FFFFFF</color>
+
+    <color name="contact_name">#333333</color>
+    <color name="contact_number">#8c8c8c</color>
+    <color name="colorOval_ripple">#8c8c8c</color>
+
+
+</resources>
