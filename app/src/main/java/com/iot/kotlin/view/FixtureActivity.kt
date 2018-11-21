@@ -129,7 +129,7 @@ private fun onRetrieveFixtureListSuccess(result: SmartRooms){
     // adding fixture to fixture list & persist in shared preference
     if (mRoomKey == "bedroom") {
 
-        val x = result!!.rooms?.bedroom?.fixtures!!.size
+        val x = result.rooms?.bedroom?.fixtures!!.size
         mFixtureList!!.addAll(result.rooms?.bedroom?.fixtures ?: mutableListOf())
 
         val fixtureValue = result.rooms?.bedroom?.fixtures!!.joinToString()
@@ -138,7 +138,7 @@ private fun onRetrieveFixtureListSuccess(result: SmartRooms){
 
     } else if (mRoomKey == "living-room") {
 
-        val y = result!!.rooms?.livingroom?.fixtures!!.size
+        val y = result.rooms?.livingroom?.fixtures!!.size
         mFixtureList!!.addAll(result.rooms?.livingroom?.fixtures ?: mutableListOf())
         val fixtureValue = result.rooms?.livingroom?.fixtures!!.joinToString()
 
