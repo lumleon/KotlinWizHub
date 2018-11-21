@@ -27,6 +27,11 @@ android {
     }
     buildTypes {
         release {
+                 lintOptions {
+                    disable 'MissingTranslation'
+                    checkReleaseBuilds false
+                    abortOnError false
+                }
             minifyEnabled true
             multiDexEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
