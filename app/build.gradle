@@ -67,7 +67,7 @@ dependencies {
         exclude group: 'com.android.support'
         exclude module: 'recyclerview-v7'
     }
-    androidTestCompile 'com.android.support.test.espresso:espresso-intents:3.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-intents:3.0.2'
 
     // To Support Design, CardView and RecyclerView Library
     implementation 'com.android.support:support-v4:27.1.1'
@@ -108,7 +108,7 @@ dependencies {
 
 
     //Firebase
-    compile 'com.google.firebase:firebase-core:16.0.1'
+    implementation 'com.google.firebase:firebase-core:16.0.1'
 
 
     //notification
